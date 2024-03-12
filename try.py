@@ -13,7 +13,7 @@ if input_text=='':
         number_of_pages = len(reader.pages)
         page = reader.pages
         print(page[0].extract_text())
-API_KEY='Kk5Drx88gQ1JurDXRxmIhYfPYtREtE4X6n0KN7lL'
+API_KEY='BXim1rK6O5O3iHccf3YLkdZLN2QBvehqag2FtMEf'
 co = cohere.Client(API_KEY)
 response_resume = co.generate(
       model='command-xlarge-nightly',
