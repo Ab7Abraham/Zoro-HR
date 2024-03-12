@@ -1,3 +1,15 @@
+import subprocess
+
+# List of required packages
+required_packages = ['cohere', 'numpy', 'streamlit_chat', 'PyPDF2','streamlit']
+
+# Function to install packages
+def install_packages(packages):
+    for package in packages:
+        subprocess.run(['pip', 'install', package])
+
+# Install required packages
+install_packages(required_packages)
 import cohere
 import numpy as np
 import streamlit as st
@@ -5,7 +17,7 @@ from streamlit_chat import message
 from amazon import set_background 
 from PyPDF2 import PdfReader
 
-API_KEY = 'KrWJ8k5s5AZxaczaO1m9Td0OXv8a8fHRJZlyCVIs'
+API_KEY = 'BXim1rK6O5O3iHccf3YLkdZLN2QBvehqag2FtMEf'
 co = cohere.Client(API_KEY)
 
 st.set_page_config(
