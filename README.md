@@ -1,4 +1,4 @@
-# ![CO:HEAR](https://github.com/Ab7Abraham/Zoro-HR/blob/main/ZORO-BOT/logo%20arch.jpg)
+# ![ZORO](https://github.com/Ab7Abraham/Zoro-HR/blob/main/logo%20arch.jpg)
 
 _A chatbot that helps you prepare for behavior and technical interviews by analyzing your resume and job description._
 ## Introduction
@@ -7,7 +7,7 @@ This repository contains code for a chatbot that helps job seekers prepare for i
 ## Getting Started
 
 To get started, you will need to upload your resume and job description. The chatbot will then analyze the text and generate questions and answers based on your experience and the requirements of the job. It will generate first 3 questions based on the Resume and 7 based on the job role.
-![App architecture](https://github.com/Ab7Abraham/Zoro-HR/blob/main/ZORO-BOT/Architecture.png)
+![App architecture]([https://github.com/Ab7Abraham/Zoro-HR/blob/main/ZORO-BOT/Architecture.png](https://github.com/Ab7Abraham/Zoro-HR/blob/main/Architecture.png))
 ## Features
 - Generates questions based on your resume and job description
 - Provides answers to common interview questions
